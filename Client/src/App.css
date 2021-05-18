@@ -1,0 +1,351 @@
+/* Global */
+.btn {
+  border-radius: 0 !important;
+}
+
+a {
+  cursor: pointer;
+}
+
+btn-primary {
+  background-color: #00509d !important;
+  color: #ffffff !important;
+}
+
+btn-secondary {
+  background-color: #ffffff !important;
+  color: #00509d !important;
+  border: 1px solid #00509d !important;
+}
+
+.full-width {
+  width: 100vw !important;
+}
+
+.full-height {
+  height: 100vh !important;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Global ends */
+
+/* Navbar home */
+.navbar-home {
+  flex: 1;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 60px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 9;
+}
+
+.logo {
+  margin-right: 200px;
+}
+
+.logo img {
+  justify-content: center;
+  width: 100px;
+}
+
+.nav-item a {
+  margin: 0 20px;
+  text-decoration: none;
+  color: black;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+/* Navbar home */
+
+/* Landing page */
+.landing-page {
+  margin-top: 50px;
+  padding-left: 30px;
+  padding-top: 40px;
+  flex: 1;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.landing-page .h1 {
+  padding-top: 50px;
+}
+
+.landing-page h1 {
+  font-weight: bold;
+}
+/* Landing page ends */
+
+/* Register/Login */
+.form-cont {
+  margin: 20px 40px;
+  width: 400px;
+  padding: 60px 40px;
+  background-color: #a9d0f5;
+}
+
+.register,
+.login {
+  background-color: #f3f3f3;
+}
+
+/* Register/Login ends */
+
+/* Navbar dashboard */
+#navbar-dashboard {
+  background-color: #00509d;
+  color: #ffff;
+  padding-left: 80px;
+  text-align: center;
+  height: 60px;
+}
+
+h5 {
+  text-align: center;
+}
+
+.button-logout {
+  margin-right: 80px;
+}
+
+.button-logout a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: #ffff;
+}
+
+/* Navbar dashboard ends */
+
+/* Dashboard */
+.dashboard-events {
+  margin: 50px;
+  margin-left: 60px;
+}
+
+.events {
+  background-color: #e5e5e5;
+  /* bisa dibalik sama warna background */
+  padding: 15px;
+}
+
+.events img {
+  width: 130px;
+}
+
+.dashboard-events .events .col p {
+  margin-top: 40px;
+}
+
+.dashboard-events .events .col button {
+  margin-top: 40px;
+}
+
+/* Dashboard ends */
+
+/* Navbar certificate*/
+#navbar-certificate {
+  background-color: #a9d0f5;
+  color: #00509d;
+  text-align: center;
+  padding-left: 80px;
+}
+
+#navbar-certificate a {
+  color: #00509d;
+  margin-left: 50px;
+}
+
+#navbar-certificate button {
+  margin-right: 80px;
+}
+
+/* Navbar certificate ends*/
+
+/* Event information */
+.container-eventInformation {
+  margin: 30px;
+  background-color: #e5e5e5;
+  /* bisa dibalik sama warna background */
+  padding: 50px;
+  padding-left: 80px;
+  padding-right: 80px;
+}
+
+.container-eventInformation .one {
+  margin-top: 50px;
+}
+
+/* Event information ends */
+
+/* Create event */
+.create-event {
+  background-color: #a9d0f5;
+}
+
+/* Create event ends*/
+
+/* Edit event */
+.edit-event {
+  background-color: #a9d0f5;
+}
+
+/* Edit event ends */
+
+/* Recipient */
+.upload-cont {
+  width: 500px;
+  padding: 20px 30px;
+}
+
+.upload-cont form {
+  display: flex;
+  justify-content: space-between;
+}
+
+.upload-cont input {
+  width: 60%;
+}
+
+.recipient {
+  padding: 40px 0;
+}
+
+.recipient-tab {
+  margin-top: 50px;
+}
+
+.action-btn a {
+  margin: 0 5px;
+  font-size: 20px;
+}
+.form-control-sm {
+  width: 170px;
+}
+/* Recipient end */
+
+/* Template */
+.template-cont {
+  margin: 30px 40px;
+  padding: 80px 30px;
+}
+
+.template-div {
+  margin-bottom: 20px;
+}
+
+.recipient {
+  padding: 40px 0;
+}
+
+.recipient-tab {
+  margin-top: 50px;
+}
+
+.action-btn a {
+  margin: 0 5px;
+  font-size: 20px;
+}
+
+.form-control-sm {
+  width: 170px;
+}
+
+button.btn-large {
+  width: 100%;
+  margin-top: 50px !important;
+}
+
+/* Template ends */
+
+/* Events */
+.event-cont,
+.info-cont {
+  padding: 60px 50px;
+}
+
+.card-cont {
+  margin-top: 50px;
+}
+
+.large-card {
+  margin: 0 auto;
+  width: 100%;
+  padding: 30px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+}
+
+.card button {
+  margin: 0 5px;
+}
+
+/* Events ends */
+
+/* Information event  */
+.info-card {
+  margin: 0 auto;
+  width: 100%;
+  padding: 20px 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+}
+
+/* .banner-img {
+  max-width: 45%;
+} */
+
+.banner-img img {
+  width: 100%;
+  height: auto;
+}
+
+.card-desc {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+  width: 60%;
+}
+
+.card-col {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 0 10px;
+}
+
+.card-col .bolder {
+  font-weight: 800;
+}
+
+.card-col p {
+  margin: 5px 0;
+  font-size: 18px;
+}
+
+/* Information event ends */
+/* Validation  */
+.validation-cont {
+  padding: 120px 50px;
+}
+
+.navbar-validate {
+  flex: 1;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 50px;
+  /* position: absolute; */
+}
+
+/* Validation ends */
